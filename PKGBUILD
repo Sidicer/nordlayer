@@ -1,4 +1,4 @@
-#Maintainer: Mearaj Bhagad <mearajbhagad at gmail dot com>
+#Maintainer: Deividas Gedgaudas <sidicer at gmail dot com>
 
 pkgname=nordlayer
 pkgver=2.6.1
