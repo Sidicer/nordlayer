@@ -8,7 +8,7 @@ To check latest official [nordlayer](https://nordlayer.com) version:
 ```sh
 curl https://downloads.nordlayer.com/linux/latest/version -w "\n"
 ```
-For any issues, please create an issue or leave a comment [in AUR](https://aur.archlinux.org/packages/nordlayer)
+If you run into any errors feel free to create an issue or leave a comment [in AUR](https://aur.archlinux.org/packages/nordlayer)
 
 Installing from AUR:
 ```sh
