@@ -1,26 +1,26 @@
-## Approved, unofficial repo of [Nordlayer](https://nordlayer.com) VPN package for Linux (esp [ArchLinux](https://archlinux.org/)) 
+# [Nordlayer](https://nordlayer.com) VPN package for Linux (esp [ArchLinux](https://archlinux.org/)) 
+![AUR version](https://img.shields.io/aur/version/nordlayer)
+### Important
+Original repository was archived by mearaj as they are longer a nordlayer user ([mearaj/nordlayer](https://github.com/mearaj/nordlayer)) <br>
+I will be maintaining this fork from now on.
 
-## Important! ##
-#### Original repository was archived by mearaj as they are longer a nordlayer user [mearaj/nordlayer](https://github.com/mearaj/nordlayer) ####
-#### I will be trying to maintain this fork [Sidicer/nordlayer](https://github.com/Sidicer/nordlayer) of his original work ####
-
-
-To check if the repo is upto date with the official
-[Nordlayer](https://nordlayer.com), run the following from
-console/terminal.<br>
-Make sure [curl](https://curl.se/) is installed on your system.
-
-```
+To check latest official [nordlayer](https://nordlayer.com) version:
+```sh
 curl https://downloads.nordlayer.com/linux/latest/version -w "\n"
 ```
 For any issues, please create an issue or
 [Add comment here](https://aur.archlinux.org/packages/nordlayer)
 
-For Arch Linux Users,
-* Clone this repo
-* Change to cloned repo ```cd nordlayer``` 
-* MakePkg ```makepkg -si```
-* Install Package ```sudo pacman -U "package_name_pkg.tar.zst"``` where
-<b>package_name_pkg.tar.zst</b> is the name of package generated from <b>makepkg -si</b>
+Intalling from AUR:
+```sh
+yay -S nordlayer
+```
 
-### Thanks! ###
+Building the package manually:
+```sh
+git clone https://github.com/Sidicer/nordlayer
+cd nordlayer
+makepkg -si
+# If 'makepkg -si' fails to install after building run:
+sudo pacman -U nordlayer-2.6.2-0-x86_64.pkg.tar.zst
+```
