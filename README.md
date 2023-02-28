@@ -1,5 +1,5 @@
 # [Nordlayer](https://nordlayer.com) VPN package for Linux (esp [ArchLinux](https://archlinux.org/)) 
-![AUR version](https://img.shields.io/aur/version/nordlayer) ![Nordlayer version](https://img.shields.io/badge/nordlayer-2.6.2-green)
+[![AUR version](https://img.shields.io/aur/version/nordlayer)](https://aur.archlinux.org/packages/nordlayer) [![Nordlayer version](https://img.shields.io/badge/nordlayer-2.6.2-green)](https://nordlayer.com/download/linux/)
 ### Important
 Original repository was archived by mearaj as they are longer a nordlayer user ([mearaj/nordlayer](https://github.com/mearaj/nordlayer)) <br>
 I will be maintaining this fork from now on.
