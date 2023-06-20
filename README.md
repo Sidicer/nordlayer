@@ -22,5 +22,5 @@ git clone https://github.com/Sidicer/nordlayer.git
 cd nordlayer
 makepkg -si
 # If 'makepkg -si' fails to install automatically:
-sudo pacman -U nordlayer-2.6.3-0-x86_64.pkg.tar.zst
+sudo pacman -U nordlayer-2.6.4-0-x86_64.pkg.tar.zst
 ```
