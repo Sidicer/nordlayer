@@ -11,14 +11,6 @@ systemctl restart nordlayer
 nordlayer login
 ```
 
-### Upgrade from 2.6.3 to 2.6.4 BREAKS nordlayer.db
-```sh
-# Run this if you are unable to use nordlayer after upgrade
-rm /var/lib/nordlayer/nordlayer.db
-systemctl restart nordlayer
-nordlayer login
-```
-
 ### Important
 Original [repository](https://github.com/mearaj/nordlayer) was archived by [mearaj](https://github.com/mearaj) as they are longer a nordlayer user.<br>
 I will be maintaining the package from now on.
