@@ -27,7 +27,7 @@ yay -S nordlayer
 ### Building the package manually:
 ```sh
 git clone https://github.com/akumaburn/nordlayer-latest.git
-cd nordlayer
+cd nordlayer-latest
 makepkg -si
 # If 'makepkg -si' fails to install automatically:
 sudo pacman -U nordlayer-3.1.0-0-x86_64.pkg.tar.zst
