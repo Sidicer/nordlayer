@@ -32,3 +32,14 @@ makepkg -si
 # If 'makepkg -si' fails to install automatically:
 sudo pacman -U nordlayer-3.1.0-0-x86_64.pkg.tar.zst
 ```
+
+### Connection Error fix:
+```
+sudo usermod -a -G nordlayer $(whoami)
+sudo setcap 'CAP_NET_ADMIN=+eip' /usr/libexec/nordlayer/nordlayer-charon
+sudo setcap 'CAP_NET_ADMIN=+eip' /usr/libexec/nordlayer/nordlayer-ip
+sudo setcap 'CAP_NET_ADMIN=+eip' /usr/libexec/nordlayer/nordlayer-openvpn
+sudo setcap 'CAP_NET_ADMIN+eip CAP_DAC_OVERRIDE+eip CAP_SETUID+eip' /usr/libexec/nordlayer/nordlayer-resolvconf
+sudo setcap 'CAP_NET_ADMIN=+eip' /usr/libexec/nordlayer/nordlayer-setcap
+sudo setcap 'CAP_NET_ADMIN=+eip' /usr/bin/nordlayer
+```
