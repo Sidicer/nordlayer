@@ -43,3 +43,5 @@ sudo setcap 'CAP_NET_ADMIN+eip CAP_DAC_OVERRIDE+eip CAP_SETUID+eip' /usr/libexec
 sudo setcap 'CAP_NET_ADMIN=+eip' /usr/libexec/nordlayer/nordlayer-setcap
 sudo setcap 'CAP_NET_ADMIN=+eip' /usr/bin/nordlayer
 ```
+
+Remember to reboot after changes.
